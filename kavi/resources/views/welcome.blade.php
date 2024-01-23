@@ -195,7 +195,7 @@
                 </ul>
                 <form class="example" action="action_page.php">
                     <input type="text" placeholder="Search..." name="search" style="background: white;">
-                    <button type="submit"><i class="fa fa-search" style="background: #f60;
+                    <button type="submit"><i class="fa fa-search " style="background: #f60;
   color: black;"></i></button>
                 </form>
             </div>
@@ -216,7 +216,7 @@
             <div class="carousel-caption d-none d-md-block">
                 <h2 class="fw-bold">Motocross Dominance Evolved</h2>
                 <h1 class="fw-bold">2024 KTM SX-F Factory Editions </h1>
-                <button class="btn rounded-pill" style="color: black; background-color: #f60; font-weight: bold"><span class="fw-bold">Explore More</span></button>
+                <button class="btn rounded-pill"  style="color: black; background-color: #f60; font-weight: bold"><span class="fw-bold">Explore More</span></button>
             </div>
         </div>
         <div class="carousel-item">
@@ -224,7 +224,7 @@
             <div class="carousel-caption d-none d-md-block">
                 <h2 class="fw-bold">KTM Academy of Speed</h2>
                 <h1 class="fw-bold">Race. Rest. Repeat</h1>
-                <button class="btn rounded-pill" style="color: black; background-color: #f60; font-weight: bold"><span class="fw-bold">Learn More</span></button>
+                <button class="btn rounded-pill " style="color: black; background-color: #f60; font-weight: bold"><span class="fw-bold">Learn More</span></button>
             </div>
         </div>
         <div class="carousel-item">
@@ -270,7 +270,7 @@
                         @ 10,000 rpm of power. It has a fuel tank of 13.4 L and a claimed mileage of 33 kmpl.</p>
                 </div>
                 <div class="card-footer">
-                    <button class="btn rounded-pill" class="btn rounded-pill" style="color: black; background-color: #f60; font-weight: bold" id="eff1"
+                    <button class="btn rounded-pill" style="color: black; background-color: #f60; font-weight: bold" id="eff1"
                         onclick=effect()>Book Now <i class="fa-solid fa-motorcycle"></i></i></button>
                     <a href=# style="font-weight: bold; color:black; text-decoration: none">Price starting from
                         <span>&#8377;</span>229000</a>
@@ -361,30 +361,28 @@
         </div>
     </div>
 
-  <!-- off-canvas section starts here -->
-<div class="bg-dark border-bottom">
-    <h6 class="d-flex justify-content-center justify-content-lg-between p-4 me-5 fs-6 fw-normal text-white">To Know More Details About Our Products: </h6>
-    <a class="btn ms-5 btn rounded-pill mb-5" data-bs-toggle="offcanvas" href="#offcanvasDuke390" role="button" aria-controls="offcanvasDuke390"  style="color: black; background-color: #f60; font-weight: bold">
-        Duke 390
-    </a>
-    <button class="btn btn rounded-pill mb-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDuke250" aria-controls="offcanvasDuke250"  style="color: black; background-color: #f60; font-weight: bold">
-        Duke 250
-    </button>
-    <button class="btn btn rounded-pill mb-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDuke200" aria-controls="offcanvasDuke200"  style="color: black; background-color: #f60; font-weight: bold">
-        Duke 200
-    </button>
-    <button class="btn btn rounded-pill mb-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRc390" aria-controls="offcanvasRc3900"  style="color: black; background-color: #f60; font-weight: bold">
-        Rc 390
-    </button>
-
-    <button class="btn btn rounded-pill mb-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRc200" aria-controls="offcanvasRc200"  style="color: black; background-color: #f60; font-weight: bold">
-        Rc 200
-    </button>
-
-    <button class="btn btn rounded-pill mb-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAdv390" aria-controls="offcanvasAdv390" style="color: black; background-color: #f60; font-weight: bold">
-        Adventure 390
-    </button>
-
+    <div class="bg-dark border-bottom">
+        <h6 class="d-flex justify-content-center justify-content-lg-between p-4 me-5 fs-6 fw-normal text-white">To Know More Details About Our Products: </h6>
+        <div class="d-flex flex-wrap justify-content-center mx-auto">
+            <a class="btn ms-2 ms-lg-5 btn rounded-pill mb-2 mb-lg-5 me-2" data-bs-toggle="offcanvas" href="#offcanvasDuke390" role="button" aria-controls="offcanvasDuke390" style="color: black; background-color: #f60; font-weight: bold">
+                Duke 390
+            </a>
+            <button class="btn btn rounded-pill mb-2 mb-lg-5 me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDuke250" aria-controls="offcanvasDuke250" style="color: black; background-color: #f60; font-weight: bold">
+                Duke 250
+            </button>
+            <button class="btn btn rounded-pill mb-2 mb-lg-5 me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDuke200" aria-controls="offcanvasDuke200" style="color: black; background-color: #f60; font-weight: bold">
+                Duke 200
+            </button>
+            <button class="btn btn rounded-pill mb-2 mb-lg-5 me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRc390" aria-controls="offcanvasRc390" style="color: black; background-color: #f60; font-weight: bold">
+                Rc 390
+            </button>
+            <button class="btn btn rounded-pill mb-2 mb-lg-5 me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRc200" aria-controls="offcanvasRc200" style="color: black; background-color: #f60; font-weight: bold">
+                Rc 200
+            </button>
+            <button class="btn btn rounded-pill mb-2 mb-lg-5 me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAdv390" aria-controls="offcanvasAdv390" style="color: black; background-color: #f60; font-weight: bold">
+                Adventure 390
+            </button>
+        </div>
 
     <!-- Duke 390 Off-canvas -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDuke390" aria-labelledby="offcanvasDuke390Label">
@@ -394,7 +392,8 @@
         </div>
         <div class="offcanvas-body">
             <div style="text-align: justify;">
-                 The KTM Duke 390 is a dynamic and spirited motorcycle designed for versatile performance. Powered by a potent 373.2cc single-cylinder engine with liquid cooling, it offers a blend of agility and power. Its lightweight and rigid steel trellis frame, coupled with inverted front forks and a monoshock, provides responsive handling and stability. With a modern and aggressive design, including a distinctive headlight, the Duke 390 boasts a sleek appearance. Technologically advanced, it typically features a digital instrument cluster, ABS, and may include additional functionalities like ride modes and traction control. The bike's sporty tires, alloy wheels, and performance-oriented exhaust contribute to its overall appeal. Comfortable seating and a variety of color options make the KTM Duke 390 an exciting choice for riders seeking a thrilling and stylish experience on the road.
+                 <!-- Content for Duke 390 Off-canvas -->
+			The KTM Duke 390 is a dynamic and spirited motorcycle designed for versatile performance. Powered by a potent 373.2cc single-cylinder engine with liquid cooling, it offers a blend of agility and power. Its lightweight and rigid steel trellis frame, coupled with inverted front forks and a monoshock, provides responsive handling and stability. With a modern and aggressive design, including a distinctive headlight, the Duke 390 boasts a sleek appearance. Technologically advanced, it typically features a digital instrument cluster, ABS, and may include additional functionalities like ride modes and traction control. The bike's sporty tires, alloy wheels, and performance-oriented exhaust contribute to its overall appeal. Comfortable seating and a variety of color options make the KTM Duke 390 an exciting choice for riders seeking a thrilling and stylish experience on the road.
             </div>
         </div>
     </div>
@@ -407,11 +406,12 @@
         </div>
         <div class="offcanvas-body">
             <div style="text-align: justify;">
-                The KTM Duke 250 is a dynamic and compact motorcycle, offering a perfect balance between performance and agility. Powered by a robust 248.8cc single-cylinder engine, it delivers a thrilling riding experience. With a lightweight chassis and modern design, the Duke 250 is known for its nimble handling and distinctive appearance. Equipped with features like a digital instrument cluster, ABS, and sporty tires, it combines style with functionality. The comfortable seating and ergonomic design make it suitable for both urban commuting and spirited rides on open roads. The Duke 250 embodies the essence of a versatile and stylish motorcycle in a more approachable displacement, catering to riders seeking a dynamic yet manageable two-wheeled companion.
+                <!-- Content for Duke 250 Off-canvas -->
+			The KTM Duke 250 is a dynamic and compact motorcycle, offering a perfect balance between performance and agility. Powered by a robust 248.8cc single-cylinder engine, it delivers a thrilling riding experience. With a lightweight chassis and modern design, the Duke 250 is known for its nimble handling and distinctive appearance. Equipped with features like a digital instrument cluster, ABS, and sporty tires, it combines style with functionality. The comfortable seating and ergonomic design make it suitable for both urban commuting and spirited rides on open roads. The Duke 250 embodies the essence of a versatile and stylish motorcycle in a more approachable displacement, catering to riders seeking a dynamic yet manageable two-wheeled companion.
             </div>
         </div>
     </div>
-</div>
+
     <!-- Duke 200 Off-canvas -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDuke200" aria-labelledby="offcanvasDuke200Label">
         <div class="offcanvas-header">
@@ -420,11 +420,12 @@
         </div>
         <div class="offcanvas-body">
             <div style="text-align: justify;">
-                The KTM Duke 200 is a dynamic and agile motorcycle renowned for its energetic performance in a compact form. Powered by a spirited 200cc single-cylinder engine, it strikes a balance between power and maneuverability. The lightweight chassis and modern design contribute to its nimble handling, making it an excellent choice for urban commuting and spirited rides. With features such as a digital instrument cluster and ABS, the Duke 200 combines style with practicality. Its sporty aesthetics, comfortable seating, and responsive nature make it an appealing option for riders seeking an exhilarating yet approachable two-wheeled companion. The Duke 200 embodies the essence of a versatile and spirited ride in a more accessible displacement, catering to riders who value both performance and agility on the road.
+                <!-- Content for Duke 200 Off-canvas -->
+			The KTM Duke 200 is a dynamic and agile motorcycle renowned for its energetic performance in a compact form. Powered by a spirited 200cc single-cylinder engine, it strikes a balance between power and maneuverability. The lightweight chassis and modern design contribute to its nimble handling, making it an excellent choice for urban commuting and spirited rides. With features such as a digital instrument cluster and ABS, the Duke 200 combines style with practicality. Its sporty aesthetics, comfortable seating, and responsive nature make it an appealing option for riders seeking an exhilarating yet approachable two-wheeled companion. The Duke 200 embodies the essence of a versatile and spirited ride in a more accessible displacement, catering to riders who value both performance and agility on the road.
             </div>
         </div>
     </div>
-</div>
+
     <!-- Rc 390 Off-canvas -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRc390" aria-labelledby="offcanvasRc390Label">
         <div class="offcanvas-header">
@@ -433,11 +434,12 @@
         </div>
         <div class="offcanvas-body">
             <div style="text-align: justify;">
-                The KTM RC 390 is a thrilling and aggressive sportbike designed for riders who crave high-performance experiences. Powered by a potent 373.2cc single-cylinder engine, the RC 390 delivers impressive acceleration and power. Its sharp and aerodynamic design not only enhances its visual appeal but also contributes to its dynamic performance. The lightweight and rigid steel trellis frame, paired with high-quality suspension components, ensures precise handling and stability at high speeds. Equipped with advanced features such as a digital instrument cluster, ABS, and sporty tires, the RC 390 is geared towards offering a thrilling and controlled riding experience on both the track and the road. With a focus on performance, aesthetics, and cutting-edge technology, the KTM RC 390 stands out as a formidable choice for riders seeking an adrenaline-packed sportbike.
+                <!-- Content for Rc 390 Off-canvas -->
+			The KTM RC 390 is a thrilling and aggressive sportbike designed for riders who crave high-performance experiences. Powered by a potent 373.2cc single-cylinder engine, the RC 390 delivers impressive acceleration and power. Its sharp and aerodynamic design not only enhances its visual appeal but also contributes to its dynamic performance. The lightweight and rigid steel trellis frame, paired with high-quality suspension components, ensures precise handling and stability at high speeds. Equipped with advanced features such as a digital instrument cluster, ABS, and sporty tires, the RC 390 is geared towards offering a thrilling and controlled riding experience on both the track and the road. With a focus on performance, aesthetics, and cutting-edge technology, the KTM RC 390 stands out as a formidable choice for riders seeking an adrenaline-packed sportbike.
             </div>
         </div>
     </div>
-</div>
+
     <!-- Rc 200 Off-canvas -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRc200" aria-labelledby="offcanvasRc200Label">
         <div class="offcanvas-header">
@@ -446,24 +448,27 @@
         </div>
         <div class="offcanvas-body">
             <div style="text-align: justify;">
-                The KTM RC 200 is an exhilarating sportbike that perfectly balances performance and agility. Powered by a spirited 200cc single-cylinder engine, the RC 200 offers a thrilling riding experience with quick acceleration and nimble handling. Its aggressive and aerodynamic design not only enhances its visual appeal but also contributes to its dynamic performance. The lightweight chassis, coupled with high-quality suspension components, ensures precise control and responsiveness on the road. Featuring advanced elements like a digital instrument cluster and sporty tires, the RC 200 caters to riders who appreciate a combination of style, performance, and maneuverability. With its track-inspired design and focus on delivering an exciting ride, the KTM RC 200 stands out as an appealing choice for those seeking a dynamic sportbike in a more approachable displacement.
+                <!-- Content for Rc 200 Off-canvas -->
+			The KTM RC 200 is an exhilarating sportbike that perfectly balances performance and agility. Powered by a spirited 200cc single-cylinder engine, the RC 200 offers a thrilling riding experience with quick acceleration and nimble handling. Its aggressive and aerodynamic design not only enhances its visual appeal but also contributes to its dynamic performance. The lightweight chassis, coupled with high-quality suspension components, ensures precise control and responsiveness on the road. Featuring advanced elements like a digital instrument cluster and sporty tires, the RC 200 caters to riders who appreciate a combination of style, performance, and maneuverability. With its track-inspired design and focus on delivering an exciting ride, the KTM RC 200 stands out as an appealing choice for those seeking a dynamic sportbike in a more approachable displacement.
             </div>
         </div>
     </div>
-</div>
+
     <!-- Adv 390 Off-canvas -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasAdv390" aria-labelledby="offcanvasAdv390Label">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title fw-bold" id="offcanvasRc390Label">Adventure 390</h5>
+            <h5 class="offcanvas-title fw-bold" id="offcanvasAdv390Label">Adventure 390</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <div style="text-align: justify;">
-                The KTM Adventure 390 is a versatile and adventure-ready motorcycle designed for riders seeking a perfect balance between on-road performance and off-road capability. Powered by a robust 373.2cc single-cylinder engine, the Adventure 390 delivers a potent mix of power and efficiency. Its upright riding position, comfortable ergonomics, and adjustable suspension make it well-suited for long-distance touring and varied terrains. Equipped with modern features such as a comprehensive digital display, advanced ABS, and traction control, the Adventure 390 ensures a safe and technologically enhanced riding experience. With a rugged design, spoked wheels, and a durable chassis, this adventure motorcycle embodies KTM's commitment to providing riders with the tools to explore the open road and beyond. The Adventure 390 is an ideal choice for those who crave adventure and desire a capable motorcycle that can handle both urban streets and off-road trails with ease.
+                <!-- Content for Adventure 390 Off-canvas -->
+		The KTM Adventure 390 is a versatile and adventure-ready motorcycle designed for riders seeking a perfect balance between on-road performance and off-road capability. Powered by a robust 373.2cc single-cylinder engine, the Adventure 390 delivers a potent mix of power and efficiency. Its upright riding position, comfortable ergonomics, and adjustable suspension make it well-suited for long-distance touring and varied terrains. Equipped with modern features such as a comprehensive digital display, advanced ABS, and traction control, the Adventure 390 ensures a safe and technologically enhanced riding experience. With a rugged design, spoked wheels, and a durable chassis, this adventure motorcycle embodies KTM's commitment to providing riders with the tools to explore the open road and beyond. The Adventure 390 is an ideal choice for those who crave adventure and desire a capable motorcycle that can handle both urban streets and off-road trails with ease.
             </div>
         </div>
     </div>
 </div>
+
     <!-- Footer section starts here -->
 
     <footer class="text-center text-lg-start bg-dark text-white">
@@ -476,18 +481,18 @@
             <!-- Left -->
 
             <!-- Right -->
-            <div>
+            <div class="d-flex flex-wrap">
                 <a href="#" class="me-4 text-reset" style="text-decoration: none">
-                    <img src="{{asset('svc/facebook.svg')}}">
+                    <img src="{{asset('svc/facebook.svg')}}" alt="Facebook">
                 </a>
                 <a href="#" class="me-4 text-reset" style="text-decoration: none">
-                    <img src="{{asset('svc/instagram.svg')}}">
+                    <img src="{{asset('svc/instagram.svg')}}" alt="Instagram">
                 </a>
                 <a href="#" class="me-4 text-reset" style="text-decoration: none">
-                    <img src="{{asset('svc/twitter.svg')}}">
+                    <img src="{{asset('svc/twitter.svg')}}" alt="Twitter">
                 </a>
                 <a href="#" class="me-4 text-reset" style="text-decoration: none">
-                    <img src="{{asset('svc/youtube.svg')}}">
+                    <img src="{{asset('svc/youtube.svg')}}" alt="YouTube">
                 </a>
             </div>
             <!-- Right -->
@@ -594,13 +599,6 @@
             </div>
         </section>
         <!-- Section: Links  -->
-
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: black; color: white">
-            © 2024 Copyright:
-            <a class="text-reset fw-bold" href="http://127.0.0.1:8000/">Ktmindia.com</a>
-        </div>
-        <!-- Copyright -->
     </footer>
     <!-- Footer -->
     <script src="{{asset('js/javascript.js')}}"></script>
